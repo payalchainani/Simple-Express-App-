@@ -1,15 +1,29 @@
 {
   "name": "pets_and_owners",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Intro",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./spec/*"
+    "test": "mocha ./spec/*",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payalchainani/BE-PT-pets-and-owners.git"
+  },
+  "bugs": {
+    "url": "https://github.com/payalchainani/BE-PT-pets-and-owners/issues"
+  },
+  "homepage": "https://github.com/payalchainani/BE-PT-pets-and-owners#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
   }
 }
